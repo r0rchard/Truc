@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: db7ae853-deb5-4097-a354-bfb80b5bd076
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: f0228246-5886-4ff1-8246-f4113c06e855
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: eu
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: 
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - SynClient
+  - UpdateSize
+  - UpdateSpeed
+  - SyncClient
+  - SyncPipe
+  - CantHearYou
+  - ChangeColour
+  - HeresWhy
+  - SetName
+  - ResetColor
+  - UpdateColor
+  - UpdateHostHeight
+  - UpdateNetworkHeight
+  - ResetHeight
+  - MoveMeshHelice
+  - UpdateSliderValue
+  - SyncWithInstance
+  - RemovePipeline
+  - RaiseAlert
+  - StopAlert
+  - SelectTool
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 1

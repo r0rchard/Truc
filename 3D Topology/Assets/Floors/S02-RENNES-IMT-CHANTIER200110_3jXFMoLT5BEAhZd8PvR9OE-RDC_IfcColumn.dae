@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>Tridify Collada Exporter 1.0</authoring_tool>
+    </contributor>
+    <created>2021-07-20T11:39:09</created>
+    <modified>2021-07-20T11:39:09</modified>
+    <unit name="METER" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="S02-Béton_Brut-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.486863 0.486863 0.486863 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="S02-Béton_Brut">
+      <instance_effect url="#S02-Béton_Brut-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="representation-169978-material-1751">
+      <mesh>
+        <source id="representation-169978-material-1751-positions">
+          <float_array id="representation-169978-material-1751-positions-array" count="72">-1.20443 -0.416033 -1.02 -1.00443 -0.416033 -1.02 -1.20443 -0.716033 -1.02 -1.00443 -0.716033 -1.02 -1.20443 -0.716033 -1.02 -1.00443 -0.716033 -1.02 -1.20443 -0.716033 2.61438 -1.00443 -0.716033 2.61438 -1.20443 -0.716033 2.61438 -1.00443 -0.716033 2.61438 -1.20443 -0.098066 2.61438 -1.00443 -0.098066 2.61438 -1.20443 -0.098066 2.61438 -1.00443 -0.098066 2.61438 -1.20443 -0.416033 -1.02 -1.00443 -0.416033 -1.02 -1.20443 -0.416033 -1.02 -1.20443 -0.716033 -1.02 -1.20443 -0.716033 2.61438 -1.20443 -0.098066 2.61438 -1.00443 -0.416033 -1.02 -1.00443 -0.716033 -1.02 -1.00443 -0.716033 2.61438 -1.00443 -0.098066 2.61438</float_array>
+          <technique_common>
+            <accessor source="#representation-169978-material-1751-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-169978-material-1751-normals">
+          <float_array id="representation-169978-material-1751-normals-array" count="72">0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.996185 -0.0871303 0.0 0.996185 -0.0871303 0.0 0.996185 -0.0871303 0.0 0.996185 -0.0871303 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-169978-material-1751-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-169978-material-1751-texcoord-0">
+          <float_array id="representation-169978-material-1751-texcoord-0-array" count="48">1.20443 -0.416033 1.00443 -0.416033 1.20443 -0.716033 1.00443 -0.716033 -1.20443 -1.02 -1.00443 -1.02 -1.20443 2.61438 -1.00443 2.61438 -1.20443 -0.716033 -1.00443 -0.716033 -1.20443 -0.098066 -1.00443 -0.098066 1.20443 2.61438 1.00443 2.61438 1.20443 -1.02 1.00443 -1.02 0.416033 -1.02 0.716033 -1.02 0.716033 2.61438 0.098066 2.61438 -0.416033 -1.02 -0.716033 -1.02 -0.716033 2.61438 -0.098066 2.61438</float_array>
+          <technique_common>
+            <accessor source="#representation-169978-material-1751-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-169978-material-1751-texcoord-1">
+          <float_array id="representation-169978-material-1751-texcoord-1-array" count="48">0.891064 0.169387 1.0 0.169387 0.891064 0.251618 1.0 0.251618 0.891064 0.996195 0.782127 0.996195 0.891063 0.0 0.782127 0.0 1.0 0.169387 0.891064 0.169387 1.0 0.0 0.891064 4.08446e-09 0.782127 1.0 0.673191 1.0 0.782127 0.0 0.673191 3.26756e-08 0.5 0.996195 0.336596 0.996195 0.336595 0.0 0.673191 0.0 0.163405 0.0 6.49311e-08 0.0 0.0 0.996195 0.336595 0.996195</float_array>
+          <technique_common>
+            <accessor source="#representation-169978-material-1751-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-169978-material-1751-vertices">
+          <input semantic="POSITION" source="#representation-169978-material-1751-positions"/>
+        </vertices>
+        <triangles material="S02-Béton_Brut" count="12">
+          <input semantic="VERTEX" source="#representation-169978-material-1751-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-169978-material-1751-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-169978-material-1751-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-169978-material-1751-texcoord-1" offset="0" set="1"/>
+          <p>2 0 1 2 1 3 6 4 5 6 5 7 10 8 9 10 9 11 14 12 13 14 13 15 18 16 17 18 19 16 21 20 22 20 23 22 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-144103-material-1751">
+      <mesh>
+        <source id="representation-144103-material-1751-positions">
+          <float_array id="representation-144103-material-1751-positions-array" count="72">-1.28836 -0.982853 -1.02 -1.08836 -0.982853 -1.02 -1.28836 -1.28285 -1.02 -1.08836 -1.28285 -1.02 -1.28836 -1.28285 -1.02 -1.08836 -1.28285 -1.02 -1.28836 -1.28285 2.61438 -1.08836 -1.28285 2.61438 -1.28836 -1.28285 2.61438 -1.08836 -1.28285 2.61438 -1.28836 -0.664886 2.61438 -1.08836 -0.664886 2.61438 -1.28836 -0.664886 2.61438 -1.08836 -0.664886 2.61438 -1.28836 -0.982853 -1.02 -1.08836 -0.982853 -1.02 -1.28836 -0.982853 -1.02 -1.28836 -1.28285 -1.02 -1.28836 -1.28285 2.61438 -1.28836 -0.664886 2.61438 -1.08836 -0.982853 -1.02 -1.08836 -1.28285 -1.02 -1.08836 -1.28285 2.61438 -1.08836 -0.664886 2.61438</float_array>
+          <technique_common>
+            <accessor source="#representation-144103-material-1751-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-144103-material-1751-normals">
+          <float_array id="representation-144103-material-1751-normals-array" count="72">0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.996185 -0.0871303 0.0 0.996185 -0.0871303 0.0 0.996185 -0.0871303 0.0 0.996185 -0.0871303 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-144103-material-1751-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-144103-material-1751-texcoord-0">
+          <float_array id="representation-144103-material-1751-texcoord-0-array" count="48">1.28836 -0.982853 1.08836 -0.982853 1.28836 -1.28285 1.08836 -1.28285 -1.28836 -1.02 -1.08836 -1.02 -1.28836 2.61438 -1.08836 2.61438 -1.28836 -1.28285 -1.08836 -1.28285 -1.28836 -0.664886 -1.08836 -0.664886 1.28836 2.61438 1.08836 2.61438 1.28836 -1.02 1.08836 -1.02 0.982853 -1.02 1.28285 -1.02 1.28285 2.61438 0.664886 2.61438 -0.982853 -1.02 -1.28285 -1.02 -1.28285 2.61438 -0.664886 2.61438</float_array>
+          <technique_common>
+            <accessor source="#representation-144103-material-1751-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-144103-material-1751-texcoord-1">
+          <float_array id="representation-144103-material-1751-texcoord-1-array" count="48">0.891064 0.169387 1.0 0.169387 0.891064 0.251618 1.0 0.251618 0.891064 0.996195 0.782127 0.996195 0.891063 0.0 0.782127 0.0 0.891064 0.0 1.0 0.0 0.891064 0.169387 1.0 0.169387 0.673191 0.0 0.782127 0.0 0.673191 1.0 0.782127 1.0 0.173191 0.0 0.336595 0.0 0.336595 0.996195 0.0 0.996195 0.5 0.0 0.336595 0.0 0.336595 0.996195 0.673191 0.996195</float_array>
+          <technique_common>
+            <accessor source="#representation-144103-material-1751-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-144103-material-1751-vertices">
+          <input semantic="POSITION" source="#representation-144103-material-1751-positions"/>
+        </vertices>
+        <triangles material="S02-Béton_Brut" count="12">
+          <input semantic="VERTEX" source="#representation-144103-material-1751-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-144103-material-1751-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-144103-material-1751-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-144103-material-1751-texcoord-1" offset="0" set="1"/>
+          <p>2 0 1 2 1 3 6 4 5 6 5 7 10 8 9 10 9 11 14 12 13 14 13 15 18 16 17 18 19 16 21 20 22 20 23 22 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-59354-material-1751">
+      <mesh>
+        <source id="representation-59354-material-1751-positions">
+          <float_array id="representation-59354-material-1751-positions-array" count="72">-1.19022 -0.941526 -1.02 -0.990216 -0.941526 -1.02 -1.19022 -1.24153 -1.02 -0.990216 -1.24153 -1.02 -1.19022 -1.24153 -1.02 -0.990216 -1.24153 -1.02 -1.19022 -1.24153 2.61438 -0.990216 -1.24153 2.61438 -1.19022 -1.24153 2.61438 -0.990216 -1.24153 2.61438 -1.19022 -0.623559 2.61438 -0.990216 -0.623559 2.61438 -1.19022 -0.623559 2.61438 -0.990216 -0.623559 2.61438 -1.19022 -0.941526 -1.02 -0.990216 -0.941526 -1.02 -1.19022 -0.941526 -1.02 -1.19022 -1.24153 -1.02 -1.19022 -1.24153 2.61438 -1.19022 -0.623559 2.61438 -0.990216 -0.941526 -1.02 -0.990216 -1.24153 -1.02 -0.990216 -1.24153 2.61438 -0.990216 -0.623559 2.61438</float_array>
+          <technique_common>
+            <accessor source="#representation-59354-material-1751-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-59354-material-1751-normals">
+          <float_array id="representation-59354-material-1751-normals-array" count="72">0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.996185 -0.0871303 0.0 0.996185 -0.0871303 0.0 0.996185 -0.0871303 0.0 0.996185 -0.0871303 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-59354-material-1751-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-59354-material-1751-texcoord-0">
+          <float_array id="representation-59354-material-1751-texcoord-0-array" count="48">1.19022 -0.941526 0.990216 -0.941526 1.19022 -1.24153 0.990216 -1.24153 -1.19022 -1.02 -0.990216 -1.02 -1.19022 2.61438 -0.990216 2.61438 -1.19022 -1.24153 -0.990216 -1.24153 -1.19022 -0.623559 -0.990216 -0.623559 1.19022 2.61438 0.990216 2.61438 1.19022 -1.02 0.990216 -1.02 0.941526 -1.02 1.24153 -1.02 1.24153 2.61438 0.623559 2.61438 -0.941526 -1.02 -1.24153 -1.02 -1.24153 2.61438 -0.623559 2.61438</float_array>
+          <technique_common>
+            <accessor source="#representation-59354-material-1751-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-59354-material-1751-texcoord-1">
+          <float_array id="representation-59354-material-1751-texcoord-1-array" count="48">0.891064 0.169387 1.0 0.169387 0.891064 0.251618 1.0 0.251618 0.891064 0.996195 0.782127 0.996195 0.891063 0.0 0.782127 0.0 0.891064 0.0 1.0 0.0 0.891064 0.169387 1.0 0.169387 0.673191 0.0 0.782127 0.0 0.673191 1.0 0.782127 1.0 0.5 0.996195 0.336596 0.996195 0.336595 0.0 0.673191 0.0 0.173191 0.996195 0.336595 0.996195 0.336595 1.30703e-07 0.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-59354-material-1751-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-59354-material-1751-vertices">
+          <input semantic="POSITION" source="#representation-59354-material-1751-positions"/>
+        </vertices>
+        <triangles material="S02-Béton_Brut" count="12">
+          <input semantic="VERTEX" source="#representation-59354-material-1751-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-59354-material-1751-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-59354-material-1751-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-59354-material-1751-texcoord-1" offset="0" set="1"/>
+          <p>2 0 1 2 1 3 6 4 5 6 5 7 10 8 9 10 9 11 14 12 13 14 13 15 18 16 17 18 19 16 21 20 22 20 23 22 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-50666-material-1751">
+      <mesh>
+        <source id="representation-50666-material-1751-positions">
+          <float_array id="representation-50666-material-1751-positions-array" count="72">-1.13518 -0.70269 -1.02 -0.935182 -0.70269 -1.02 -1.13518 -1.00269 -1.02 -0.935182 -1.00269 -1.02 -1.13518 -1.00269 -1.02 -0.935182 -1.00269 -1.02 -1.13518 -1.00269 2.61438 -0.935182 -1.00269 2.61438 -1.13518 -1.00269 2.61438 -0.935182 -1.00269 2.61438 -1.13518 -0.384723 2.61438 -0.935182 -0.384723 2.61438 -1.13518 -0.384723 2.61438 -0.935182 -0.384723 2.61438 -1.13518 -0.70269 -1.02 -0.935182 -0.70269 -1.02 -1.13518 -0.70269 -1.02 -1.13518 -1.00269 -1.02 -1.13518 -1.00269 2.61438 -1.13518 -0.384723 2.61438 -0.935182 -0.70269 -1.02 -0.935182 -1.00269 -1.02 -0.935182 -1.00269 2.61438 -0.935182 -0.384723 2.61438</float_array>
+          <technique_common>
+            <accessor source="#representation-50666-material-1751-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-50666-material-1751-normals">
+          <float_array id="representation-50666-material-1751-normals-array" count="72">0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.996185 -0.0871303 0.0 0.996185 -0.0871303 0.0 0.996185 -0.0871303 0.0 0.996185 -0.0871303 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-50666-material-1751-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-50666-material-1751-texcoord-0">
+          <float_array id="representation-50666-material-1751-texcoord-0-array" count="48">1.13518 -0.70269 0.935182 -0.70269 1.13518 -1.00269 0.935182 -1.00269 -1.13518 -1.02 -0.935182 -1.02 -1.13518 2.61438 -0.935182 2.61438 -1.13518 -1.00269 -0.935182 -1.00269 -1.13518 -0.384723 -0.935182 -0.384723 1.13518 2.61438 0.935182 2.61438 1.13518 -1.02 0.935182 -1.02 0.70269 -1.02 1.00269 -1.02 1.00269 2.61438 0.384723 2.61438 -0.70269 -1.02 -1.00269 -1.02 -1.00269 2.61438 -0.384723 2.61438</float_array>
+          <technique_common>
+            <accessor source="#representation-50666-material-1751-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-50666-material-1751-texcoord-1">
+          <float_array id="representation-50666-material-1751-texcoord-1-array" count="48">0.891064 0.169387 1.0 0.169387 0.891064 0.251618 1.0 0.251618 0.891064 0.996195 0.782127 0.996195 0.891063 0.0 0.782127 0.0 0.891064 0.0 1.0 0.0 0.891064 0.169387 1.0 0.169387 0.782127 1.0 0.673191 1.0 0.782127 0.0 0.673191 3.26756e-08 0.163405 0.996195 3.89587e-07 0.996195 0.0 0.0 0.336595 0.0 0.509786 0.996195 0.67319 0.996195 0.673191 6.53513e-08 0.336595 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-50666-material-1751-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-50666-material-1751-vertices">
+          <input semantic="POSITION" source="#representation-50666-material-1751-positions"/>
+        </vertices>
+        <triangles material="S02-Béton_Brut" count="12">
+          <input semantic="VERTEX" source="#representation-50666-material-1751-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-50666-material-1751-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-50666-material-1751-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-50666-material-1751-texcoord-1" offset="0" set="1"/>
+          <p>2 0 1 2 1 3 6 4 5 6 5 7 10 8 9 10 9 11 14 12 13 14 13 15 18 16 17 18 19 16 21 20 22 20 23 22 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TridifyScene">
+      <node id="0mx7ECY2oIJRBHBHZh529S" name="0mx7ECY2oIJRBHBHZh529S" type="NODE">
+        <matrix sid="transform">-0.943896 -0.33024287 0 7 0.33024287 -0.943896 0 7 0 0 1 1 0 0 0 1</matrix>
+        <instance_geometry url="#representation-169978-material-1751">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="S02-Béton_Brut" target="#S02-Béton_Brut"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2XWqx8SqGnGww3JI6S_K$n" name="2XWqx8SqGnGww3JI6S_K$n" type="NODE">
+        <matrix sid="transform">-0.943896 -0.33024287 0 11 0.33024287 -0.943896 0 5 0 0 1 1 0 0 0 1</matrix>
+        <instance_geometry url="#representation-144103-material-1751">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="S02-Béton_Brut" target="#S02-Béton_Brut"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0BQ0Q6dtp6JBK$B2GRY_0j" name="0BQ0Q6dtp6JBK$B2GRY_0j" type="NODE">
+        <matrix sid="transform">0.33024293 -0.943896 0 10 0.943896 0.33024293 0 2 0 0 1 1 0 0 0 1</matrix>
+        <instance_geometry url="#representation-59354-material-1751">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="S02-Béton_Brut" target="#S02-Béton_Brut"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2gGn3crRJbIvzEC1HFCzDI" name="2gGn3crRJbIvzEC1HFCzDI" type="NODE">
+        <matrix sid="transform">0.33024293 -0.943896 0 12 0.943896 0.33024293 0 7 0 0 1 1 0 0 0 1</matrix>
+        <instance_geometry url="#representation-50666-material-1751">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="S02-Béton_Brut" target="#S02-Béton_Brut"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TridifyScene"/>
+  </scene>
+</COLLADA>

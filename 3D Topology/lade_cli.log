@@ -1,0 +1,301 @@
+HTTPSConnectionPool(host='lade.cyberrange.local', port=443): Max retries exceeded with url: /api/token/issue (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A1FA063B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "urllib3\connection.py", line 159, in _new_conn
+  File "urllib3\util\connection.py", line 61, in create_connection
+  File "socket.py", line 918, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 670, in urlopen
+  File "urllib3\connectionpool.py", line 381, in _make_request
+  File "urllib3\connectionpool.py", line 978, in _validate_conn
+  File "urllib3\connection.py", line 309, in connect
+  File "urllib3\connection.py", line 171, in _new_conn
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001A1FA063B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 439, in send
+  File "urllib3\connectionpool.py", line 726, in urlopen
+  File "urllib3\util\retry.py", line 446, in increment
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='lade.cyberrange.local', port=443): Max retries exceeded with url: /api/token/issue (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A1FA063B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lade_common\http_error_handler.py", line 47, in handler
+  File "lade_common\http_session.py", line 122, in post
+  File "requests\sessions.py", line 590, in post
+  File "requests\sessions.py", line 542, in request
+  File "requests\sessions.py", line 655, in send
+  File "requests\adapters.py", line 516, in send
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='lade.cyberrange.local', port=443): Max retries exceeded with url: /api/token/issue (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A1FA063B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lade_cli\cli.py", line 79, in use_resource
+  File "lade_cli\request_helper.py", line 77, in get_client
+  File "lade_cli\request_helper.py", line 116, in get_lade_client
+  File "lade_sdk\client.py", line 55, in __init__
+  File "lade_sdk\api\client.py", line 91, in __init__
+  File "lade_sdk\api\lade_session.py", line 46, in __init__
+  File "lade_sdk\api\lade_session.py", line 84, in login
+  File "lade_common\http_error_handler.py", line 66, in handler
+lade_common.api_error.ApiError: HTTPSConnectionPool(host='lade.cyberrange.local', port=443): Max retries exceeded with url: /api/token/issue (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A1FA063B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+HTTPSConnectionPool(host='lade.cyberrange.local', port=443): Max retries exceeded with url: /api/token/issue (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002B24A323BB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "urllib3\connection.py", line 159, in _new_conn
+  File "urllib3\util\connection.py", line 61, in create_connection
+  File "socket.py", line 918, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 670, in urlopen
+  File "urllib3\connectionpool.py", line 381, in _make_request
+  File "urllib3\connectionpool.py", line 978, in _validate_conn
+  File "urllib3\connection.py", line 309, in connect
+  File "urllib3\connection.py", line 171, in _new_conn
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000002B24A323BB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 439, in send
+  File "urllib3\connectionpool.py", line 726, in urlopen
+  File "urllib3\util\retry.py", line 446, in increment
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='lade.cyberrange.local', port=443): Max retries exceeded with url: /api/token/issue (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002B24A323BB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lade_common\http_error_handler.py", line 47, in handler
+  File "lade_common\http_session.py", line 122, in post
+  File "requests\sessions.py", line 590, in post
+  File "requests\sessions.py", line 542, in request
+  File "requests\sessions.py", line 655, in send
+  File "requests\adapters.py", line 516, in send
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='lade.cyberrange.local', port=443): Max retries exceeded with url: /api/token/issue (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002B24A323BB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lade_cli\cli.py", line 79, in use_resource
+  File "lade_cli\request_helper.py", line 77, in get_client
+  File "lade_cli\request_helper.py", line 116, in get_lade_client
+  File "lade_sdk\client.py", line 55, in __init__
+  File "lade_sdk\api\client.py", line 91, in __init__
+  File "lade_sdk\api\lade_session.py", line 46, in __init__
+  File "lade_sdk\api\lade_session.py", line 84, in login
+  File "lade_common\http_error_handler.py", line 66, in handler
+lade_common.api_error.ApiError: HTTPSConnectionPool(host='lade.cyberrange.local', port=443): Max retries exceeded with url: /api/token/issue (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002B24A323BB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Could not load session:Expecting value: line 1 column 1 (char 0)
+HTTPSConnectionPool(host='10.35.114.253', port=443): Max retries exceeded with url: /api/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B42B293AC0>: Failed to establish a new connection: [WinError 10065] Une opération a été tentée sur un hôte impossible à atteindre'))
+Traceback (most recent call last):
+  File "urllib3\connection.py", line 159, in _new_conn
+  File "urllib3\util\connection.py", line 84, in create_connection
+  File "urllib3\util\connection.py", line 74, in create_connection
+OSError: [WinError 10065] Une opération a été tentée sur un hôte impossible à atteindre
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 670, in urlopen
+  File "urllib3\connectionpool.py", line 381, in _make_request
+  File "urllib3\connectionpool.py", line 978, in _validate_conn
+  File "urllib3\connection.py", line 309, in connect
+  File "urllib3\connection.py", line 171, in _new_conn
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001B42B293AC0>: Failed to establish a new connection: [WinError 10065] Une opération a été tentée sur un hôte impossible à atteindre
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 439, in send
+  File "urllib3\connectionpool.py", line 726, in urlopen
+  File "urllib3\util\retry.py", line 446, in increment
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='10.35.114.253', port=443): Max retries exceeded with url: /api/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B42B293AC0>: Failed to establish a new connection: [WinError 10065] Une opération a été tentée sur un hôte impossible à atteindre'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lade_common\http_error_handler.py", line 47, in handler
+  File "lade_common\http_session.py", line 62, in get
+  File "requests\sessions.py", line 555, in get
+  File "requests\sessions.py", line 542, in request
+  File "requests\sessions.py", line 655, in send
+  File "requests\adapters.py", line 516, in send
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='10.35.114.253', port=443): Max retries exceeded with url: /api/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B42B293AC0>: Failed to establish a new connection: [WinError 10065] Une opération a été tentée sur un hôte impossible à atteindre'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lade_cli\cli.py", line 79, in use_resource
+  File "lade_cli\request_helper.py", line 77, in get_client
+  File "lade_cli\request_helper.py", line 116, in get_lade_client
+  File "lade_sdk\client.py", line 55, in __init__
+  File "lade_sdk\api\client.py", line 91, in __init__
+  File "lade_sdk\api\lade_session.py", line 54, in __init__
+  File "lade_sdk\api\lade_session.py", line 149, in update_expiration_time
+  File "lade_sdk\api\lade_session.py", line 139, in get_token_infos
+  File "lade_common\http_error_handler.py", line 66, in handler
+lade_common.api_error.ApiError: HTTPSConnectionPool(host='10.35.114.253', port=443): Max retries exceeded with url: /api/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B42B293AC0>: Failed to establish a new connection: [WinError 10065] Une opération a été tentée sur un hôte impossible à atteindre'))
+HTTPSConnectionPool(host='10.35.114.253', port=443): Max retries exceeded with url: /api/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026F66F53B50>: Failed to establish a new connection: [WinError 10065] Une opération a été tentée sur un hôte impossible à atteindre'))
+Traceback (most recent call last):
+  File "urllib3\connection.py", line 159, in _new_conn
+  File "urllib3\util\connection.py", line 84, in create_connection
+  File "urllib3\util\connection.py", line 74, in create_connection
+OSError: [WinError 10065] Une opération a été tentée sur un hôte impossible à atteindre
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 670, in urlopen
+  File "urllib3\connectionpool.py", line 381, in _make_request
+  File "urllib3\connectionpool.py", line 978, in _validate_conn
+  File "urllib3\connection.py", line 309, in connect
+  File "urllib3\connection.py", line 171, in _new_conn
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000026F66F53B50>: Failed to establish a new connection: [WinError 10065] Une opération a été tentée sur un hôte impossible à atteindre
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 439, in send
+  File "urllib3\connectionpool.py", line 726, in urlopen
+  File "urllib3\util\retry.py", line 446, in increment
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='10.35.114.253', port=443): Max retries exceeded with url: /api/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026F66F53B50>: Failed to establish a new connection: [WinError 10065] Une opération a été tentée sur un hôte impossible à atteindre'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lade_common\http_error_handler.py", line 47, in handler
+  File "lade_common\http_session.py", line 62, in get
+  File "requests\sessions.py", line 555, in get
+  File "requests\sessions.py", line 542, in request
+  File "requests\sessions.py", line 655, in send
+  File "requests\adapters.py", line 516, in send
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='10.35.114.253', port=443): Max retries exceeded with url: /api/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026F66F53B50>: Failed to establish a new connection: [WinError 10065] Une opération a été tentée sur un hôte impossible à atteindre'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lade_cli\cli.py", line 79, in use_resource
+  File "lade_cli\request_helper.py", line 77, in get_client
+  File "lade_cli\request_helper.py", line 116, in get_lade_client
+  File "lade_sdk\client.py", line 55, in __init__
+  File "lade_sdk\api\client.py", line 91, in __init__
+  File "lade_sdk\api\lade_session.py", line 54, in __init__
+  File "lade_sdk\api\lade_session.py", line 149, in update_expiration_time
+  File "lade_sdk\api\lade_session.py", line 139, in get_token_infos
+  File "lade_common\http_error_handler.py", line 66, in handler
+lade_common.api_error.ApiError: HTTPSConnectionPool(host='10.35.114.253', port=443): Max retries exceeded with url: /api/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026F66F53B50>: Failed to establish a new connection: [WinError 10065] Une opération a été tentée sur un hôte impossible à atteindre'))
+('Connection aborted.', ConnectionAbortedError(10053, 'Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte', None, 10053, None))
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 670, in urlopen
+  File "urllib3\connectionpool.py", line 381, in _make_request
+  File "urllib3\connectionpool.py", line 978, in _validate_conn
+  File "urllib3\connection.py", line 362, in connect
+  File "urllib3\util\ssl_.py", line 399, in ssl_wrap_socket
+  File "ssl.py", line 500, in wrap_socket
+  File "ssl.py", line 1040, in _create
+  File "ssl.py", line 1309, in do_handshake
+ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 439, in send
+  File "urllib3\connectionpool.py", line 726, in urlopen
+  File "urllib3\util\retry.py", line 410, in increment
+  File "urllib3\packages\six.py", line 734, in reraise
+  File "urllib3\connectionpool.py", line 670, in urlopen
+  File "urllib3\connectionpool.py", line 381, in _make_request
+  File "urllib3\connectionpool.py", line 978, in _validate_conn
+  File "urllib3\connection.py", line 362, in connect
+  File "urllib3\util\ssl_.py", line 399, in ssl_wrap_socket
+  File "ssl.py", line 500, in wrap_socket
+  File "ssl.py", line 1040, in _create
+  File "ssl.py", line 1309, in do_handshake
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionAbortedError(10053, 'Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte', None, 10053, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lade_common\http_error_handler.py", line 47, in handler
+  File "lade_common\http_session.py", line 62, in get
+  File "requests\sessions.py", line 555, in get
+  File "requests\sessions.py", line 542, in request
+  File "requests\sessions.py", line 655, in send
+  File "requests\adapters.py", line 498, in send
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionAbortedError(10053, 'Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte', None, 10053, None))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lade_cli\cli.py", line 79, in use_resource
+  File "lade_cli\request_helper.py", line 77, in get_client
+  File "lade_cli\request_helper.py", line 116, in get_lade_client
+  File "lade_sdk\client.py", line 55, in __init__
+  File "lade_sdk\api\client.py", line 91, in __init__
+  File "lade_sdk\api\lade_session.py", line 54, in __init__
+  File "lade_sdk\api\lade_session.py", line 149, in update_expiration_time
+  File "lade_sdk\api\lade_session.py", line 139, in get_token_infos
+  File "lade_common\http_error_handler.py", line 66, in handler
+lade_common.api_error.ApiError: ('Connection aborted.', ConnectionAbortedError(10053, 'Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte', None, 10053, None))
+('Connection aborted.', ConnectionAbortedError(10053, 'Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte', None, 10053, None))
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 670, in urlopen
+  File "urllib3\connectionpool.py", line 381, in _make_request
+  File "urllib3\connectionpool.py", line 978, in _validate_conn
+  File "urllib3\connection.py", line 362, in connect
+  File "urllib3\util\ssl_.py", line 399, in ssl_wrap_socket
+  File "ssl.py", line 500, in wrap_socket
+  File "ssl.py", line 1040, in _create
+  File "ssl.py", line 1309, in do_handshake
+ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 439, in send
+  File "urllib3\connectionpool.py", line 726, in urlopen
+  File "urllib3\util\retry.py", line 410, in increment
+  File "urllib3\packages\six.py", line 734, in reraise
+  File "urllib3\connectionpool.py", line 670, in urlopen
+  File "urllib3\connectionpool.py", line 381, in _make_request
+  File "urllib3\connectionpool.py", line 978, in _validate_conn
+  File "urllib3\connection.py", line 362, in connect
+  File "urllib3\util\ssl_.py", line 399, in ssl_wrap_socket
+  File "ssl.py", line 500, in wrap_socket
+  File "ssl.py", line 1040, in _create
+  File "ssl.py", line 1309, in do_handshake
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionAbortedError(10053, 'Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte', None, 10053, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lade_common\http_error_handler.py", line 47, in handler
+  File "lade_common\http_session.py", line 62, in get
+  File "requests\sessions.py", line 555, in get
+  File "requests\sessions.py", line 542, in request
+  File "requests\sessions.py", line 655, in send
+  File "requests\adapters.py", line 498, in send
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionAbortedError(10053, 'Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte', None, 10053, None))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lade_cli\cli.py", line 79, in use_resource
+  File "lade_cli\request_helper.py", line 77, in get_client
+  File "lade_cli\request_helper.py", line 116, in get_lade_client
+  File "lade_sdk\client.py", line 55, in __init__
+  File "lade_sdk\api\client.py", line 91, in __init__
+  File "lade_sdk\api\lade_session.py", line 54, in __init__
+  File "lade_sdk\api\lade_session.py", line 149, in update_expiration_time
+  File "lade_sdk\api\lade_session.py", line 139, in get_token_infos
+  File "lade_common\http_error_handler.py", line 66, in handler
+lade_common.api_error.ApiError: ('Connection aborted.', ConnectionAbortedError(10053, 'Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte', None, 10053, None))
